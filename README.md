@@ -9,7 +9,7 @@ environments.
 ## TrackJS DSN
 TRACKJS_DSN listed below refers to the TrackJS endpoint for your account.
 
-Example: https://capture.trackjs.com/capture?token=<YOUR-TOKEN>
+Example: https://capture.trackjs.com/capture?token=YOUR-TOKEN
 
 ## TrackJS Applications
 You can segment your TrackJS error messages by 'Applications'. You may consider segmenting
@@ -17,12 +17,12 @@ between your client side error messages, and your server side error messages.
 
 If you'd like to take advantage of this, pass in an applications parameter within your TRACKJS_DSN.
 
-Example: https://capture.trackjs.com/capture?token=<YOUR-TOKEN>&application=<APPLICATION-ID>
+Example: https://capture.trackjs.com/capture?token=YOUR-TOKEN&application=APPLICATION-ID
 
 
 ## Installation
 ```
-$ npm install raven
+$ npm install trackjs-node
 ```
 
 ## Methods
