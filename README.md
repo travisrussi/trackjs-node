@@ -35,7 +35,7 @@ client.captureQuery(String query[[, String type], Function callback])
 
 ## Basic Usage
 ```javascript
-var raven = require('raven');
+var raven = require('trackjs-node');
 var client = new raven.Client('{{ TRACKJS_DSN }}');
 
 client.captureMessage('Hello, world!');
