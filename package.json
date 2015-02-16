@@ -1,0 +1,38 @@
+{
+  "name": "trackjs-node",
+  "description": "A standalone (Node.js) client for TrackJS",
+  "keywords": [
+    "raven",
+    "trackjs",
+    "node",
+    "errors",
+    "debugging",
+    "exceptions"
+  ],
+  "version": "0.1.0",
+  "repository": "git://github.com/mikepugh/trackjs-node.git",
+  "author": "Mike Pugh <mike@novasolutionsgroup.com>",
+  "license": "MIT",
+  "main": "index",
+  "bin": {
+    "raven": "./bin/raven"
+  },
+  "scripts": {
+    "pretest": "npm install",
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "cookie": "0.1.0",
+    "lsmod": "~0.0.3",
+    "node-uuid": "~1.4.1",
+    "stack-trace": "0.0.7"
+  },
+  "devDependencies": {
+    "glob": "~3.1.13",
+    "connect": "*",
+    "express": "*",
+    "koa": "*"
+  }
+}
