@@ -14,9 +14,6 @@
   "author": "Mike Pugh <mike@novasolutionsgroup.com>",
   "license": "MIT",
   "main": "index",
-  "bin": {
-    "raven": "./bin/raven"
-  },
   "scripts": {
     "pretest": "npm install"
   },
